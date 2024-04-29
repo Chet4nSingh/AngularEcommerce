@@ -16,6 +16,8 @@ export class LoginComponent {
   validateUser() {
     if (this.email === 'chetan@gmail.com' && this.password === 'chetan') {
       this.path = 'home';
+    } else {
+      alert('Email or password is incorrect.');
     }
   }
 }
